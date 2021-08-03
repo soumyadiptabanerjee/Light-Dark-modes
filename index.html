@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+
+        <title>Hello, world!</title>
+        <style>
+            body{
+                overflow-x:  hidden;
+            }
+            .content1{
+                margin-top: 50px;
+                margin-bottom: 30px;
+                padding: 0 100px;
+            }
+            h1{
+                text-align: center;
+                padding: 10px;
+                margin-bottom: 30px;
+            }
+            p{
+                margin-top: 30px;
+                text-align: justify;
+            }
+            .btn{
+                width: 20px;
+                height:  20px;
+                border: 1px solid black;
+                display: inline-block; 
+                border-radius: 50%;
+            }
+            #white{
+                background-color: white;
+            }
+            #aqua{
+                background-color: aquamarine;
+            }
+            #black{
+                background-color: black;
+            }
+            .img{
+                height: 25vh;
+                width: 12vw;
+                margin-top: 30px;
+            }
+            .col-2{
+                padding: 0;
+            }
+            ul{
+                padding: 0;
+            }
+            li{
+                list-style-type: none;
+                display: inline-block;
+                margin-right: 20px;
+                cursor: pointer;
+                font-size: 25px;
+            }
+            #navbar{
+                text-align: center;
+                overflow: hidden;
+                color: white;
+                background-color: black;
+                padding-top: 5px; 
+            }
+            .sticky{
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid" style="margin-bottom: 40px;">
+            <div class="row">
+                <div style="display: inline-block; padding-left: 228px;" class="col-10">
+                    <center>
+                        <img src="img/img1.png" alt="" class="img-fluid img">
+                    </center>
+                </div>
+                <div style="padding-right: 100px; margin-top: 25px; text-align: right; display: flex; align-items: center;" class="col-2">
+                    <span class="btn" id="white" onclick="changeBG('#FFFFFF')"></span>
+                    <span class="btn" id="aqua" onclick="changeBG('#00FFFF')"></span>
+                    <span class="btn" id="black" onclick="changeBG('#302E2E')"></span>
+                </div>
+            </div>
+        </div>
+        <nav id="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        
+        <div class="content1">
+            <h1 class="text">About Us</h1>
+            <center>
+                <img src="https://source.unsplash.com/1200x600/?nature,water" alt="" class="img-fluid">
+            </center>
+            <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst. Fusce convallis, mauris imperdiet gravida bibendum, nisl turpis suscipit mauris, sed placerat ipsum urna sed risus. In convallis tellus a mauris. Curabitur non elit ut libero tristique sodales. Mauris a lacus. Donec mattis semper leo. In hac habitasse platea dictumst. Vivamus facilisis diam at odio. Mauris dictum, nisi eget consequat elementum, lacus ligula molestie metus, non feugiat orci magna ac sem. Donec turpis. Donec vitae metus. Morbi tristique neque eu mauris. Quisque gravida ipsum non sapien. Proin turpis lacus, scelerisque vitae, elementum at, lobortis ac, quam. Aliquam dictum eleifend risus. In hac habitasse platea dictumst. Etiam sit amet diam. Suspendisse odio. Suspendisse nunc. In semper bibendum libero. Proin nonummy, lacus eget pulvinar lacinia, pede felis dignissim leo, vitae tristique magna lacus sit amet eros. Nullam ornare. Praesent odio ligula, dapibus sed, tincidunt eget, dictum ac, nibh. Nam quis lacus. Nunc eleifend molestie velit. Morbi lobortis quam eu velit. Donec euismod vestibulum massa. Donec non lectus. Aliquam commodo lacus sit amet nulla. Cras dignissim elit et augue. Nullam non diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Aenean vestibulum. Sed lobortis elit quis lectus. Nunc sed lacus at augue bibendum dapibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+            </p>
+        </div>
+
+        <script>
+            function changeBG(color) {
+                document.body.style.backgroundColor = color;
+                let text = document.getElementsByClassName("text");
+                let black = document.getElementById("black");
+                if (color === "#302E2E") {
+                    for (let elm of text) {
+                        elm.style.color = "white";
+                    }
+                    black.style.borderColor = "grey";
+                } else {
+                    for (let elm of text) {
+                        elm.style.color = "black";
+                    }
+                }
+            }
+            
+            window.addEventListener('scroll', function(){
+               let navbar = document.getElementById("navbar");
+               if( window.pageYOffset >= 180){
+                   navbar.classList.add('sticky');
+                     console.log("ok");
+               }
+               else{
+                   navbar.classList.remove('sticky');
+               }
+            });
+        </script>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
+    </body>
+</html>
+
